@@ -184,6 +184,11 @@ const INVITATIONS = [
     label: 'Alejandro Lea(2)',
     members: ['Alejandro Lea', 'itahisa Reyes'],
   },
+  {
+    id: 'sebas-angie-ortega',
+    label: 'Angie Ortega (2)',
+    members: ['Angie Ortega', 'Juan Fernando Villa'],
+  },
 ];
 
 function normalizeText(value) {
