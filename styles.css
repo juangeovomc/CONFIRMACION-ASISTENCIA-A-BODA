@@ -45,9 +45,13 @@ body {
   content: '';
   position: absolute;
   inset: -40px;
-  background-image: radial-gradient(circle at top left, #fbe4d6, transparent 60%),
+  background-image: url('img/sebasmarcefoto.jpeg'),
+    radial-gradient(circle at top left, #fbe4d6, transparent 60%),
     radial-gradient(circle at bottom right, #e4efd9, transparent 55%),
     linear-gradient(135deg, #111111, #2b2624 45%, #413635);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   opacity: 0.96;
   z-index: -2;
 }
@@ -448,6 +452,18 @@ textarea::placeholder {
   font-size: 0.9rem;
   color: var(--color-muted);
 }
+
+ .footer .btn.ghost {
+   color: var(--color-primary-dark);
+   border-color: rgba(201, 136, 107, 0.4);
+   background: rgba(255, 255, 255, 0.9);
+ }
+
+ .footer .btn.ghost:hover {
+   background: #ffffff;
+   border-color: var(--color-primary-dark);
+   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+ }
 
 .footer span {
   font-weight: 600;
