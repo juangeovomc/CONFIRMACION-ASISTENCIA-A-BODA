@@ -175,6 +175,11 @@ const INVITATIONS = [
     members: ['Emmanuel Jaramillo'],
   },
   {
+    id: 'sebas-astrid-tuiran',
+    label: 'Astrid Tuiran(1)',
+    members: ['Astrid Tuiran'],
+  },
+  {
     id: 'sebas-juan-esteban-ortiz',
     label: 'Juan Esteban Ortiz(2)',
     members: ['Juan Esteban Ortiz', 'pilar Manrique'],
