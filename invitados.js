@@ -185,6 +185,13 @@ const INVITATIONS = [
     members: ['Juan Esteban Ortiz', 'pilar Manrique'],
   },
   {
+    id: 'marce-olga-arias',
+    label: 'Óscar Valencia
+ (2)',
+    members: ['Óscar Valencia
+', 'Claudia Gonzales'],
+  },
+  {
     id: 'sebas-alejandro-lea',
     label: 'Alejandro Lea(2)',
     members: ['Alejandro Lea', 'itahisa Reyes'],
